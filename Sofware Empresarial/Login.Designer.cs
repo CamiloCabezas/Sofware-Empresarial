@@ -110,6 +110,7 @@
             // IngresarButton
             // 
             this.IngresarButton.BackColor = System.Drawing.Color.RoyalBlue;
+            this.IngresarButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.IngresarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.IngresarButton.ForeColor = System.Drawing.Color.White;
             this.IngresarButton.IconChar = FontAwesome.Sharp.IconChar.DoorOpen;
@@ -129,6 +130,7 @@
             // CancelarButton
             // 
             this.CancelarButton.BackColor = System.Drawing.Color.DarkRed;
+            this.CancelarButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CancelarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CancelarButton.ForeColor = System.Drawing.Color.White;
             this.CancelarButton.IconChar = FontAwesome.Sharp.IconChar.TimesCircle;

@@ -34,6 +34,9 @@ namespace Sofware_Empresarial
 
         private void forClosing(object sender, FormClosingEventArgs e)
         {
+            textDocumento.Text = string.Empty;
+            textContraseña.Text = string.Empty;
+
             this.Show();
         }
     }
